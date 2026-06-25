@@ -4,9 +4,9 @@ Automated workflow for simulating coastal flood extent and depth under climate c
 
 ## 📋 Overview
 
-This repository contains three integrated scripts for modeling flood dynamics under extreme sea level (ESL) conditions:
+This repository contains three integrated scripts under scripts folder for modeling flood dynamics under extreme sea level (ESL) conditions:
 
-1. **`/scripts/script_mode2.sh`** – GRASS GIS-based hydrodynamic modeling using least-cost path analysis (r.cost)
+1. **`script_mode2.sh`** – GRASS GIS-based hydrodynamic modeling using least-cost path analysis (r.cost)
 2. **`visualization.py`** – Publication-quality static map generation with depth classification
 3. **`zoom.py`** – script for visualisation to zoom for ares in lecce coastal zone(idume  and frigole) 
 
