@@ -194,9 +194,6 @@ water_levels/
 - DTM source: [Your elevation data source]
 
 
-## 📄 License
-
-[Specify license: MIT, CC-BY-4.0, GPL, etc.]
 
 ## 🤝 Contributing
 
