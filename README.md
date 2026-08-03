@@ -47,19 +47,6 @@ The workflow processes multiple climate scenarios (SSP245, SSP585), return perio
   - Roads shapefile (optional, for context)
   - Flood depth TIFFs (output from GRASS workflow)
 
-## 📦 Installation
-
-```bash
-# Clone repository
-git clone https://github.com/YOUR_USERNAME/shoreline-evolution.git
-cd shoreline-evolution
-
-# Install Python dependencies
-pip install numpy matplotlib rasterio geopandas pyproj
-
-# For GRASS GIS, follow official installation:
-# https://grass.osgeo.org/download/
-```
 
 ## 🚀 Usage
 
@@ -189,9 +176,9 @@ water_levels/
 ## 📝 References & Sources
 
 - GRASS GIS Documentation: https://grass.osgeo.org/learn/
-- ESL projections based on: [Your water level data source/publication]
-- Roughness data: [Your source]
-- DTM source: [Your elevation data source]
+- ESL projections based on: the AdriaClimPlus dataset, which provides post-processed anomalies of MTSL from NEMO ocean model simulations and ETSL by combining NEMO ocean model and WW3 wave model results.
+- Roughness data: Copernicus Land Monitoring Service (CLMS). Copernicus coastal zones 2018 dataset.
+- DTM source: Municipality of lecce 
 
 
 
