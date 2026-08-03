@@ -74,7 +74,7 @@ BASE_DIR="/path/to/esl_projections"     # ESL water level data directory
 
 Run the script in GRASS GIS terminal:
 ```bash
-bash flood_modeling_workflow.sh
+bash main.sh
 ```
 
 **Processing time**: ~2–5 minutes per scenario (varies with resolution & region size)
@@ -91,7 +91,7 @@ OUTPUT_DIR = "/path/to/map_outputs"
 
 Run visualization script:
 ```bash
-python3 flood_visualization.py
+python plot.py
 ```
 
 **Output**: High-resolution PNG maps saved to `OUTPUT_DIR/with_damping/projection_{scenario}/rl{period}/`
